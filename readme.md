@@ -1,20 +1,7 @@
-# Git Commands
-
-git init - Create a new git repo
-
-git status - View the changes to your project code
-
-git add - Add files to staging area
-
-git commit - Creates a new commit with files from staging area
-
-git log - View recent commits
-
-
-*****
+Budgetify
 =======================
 
-***** project. Based on react, flexbox layout, html5 and modern css3 principes.
+Budgetify project. Based on react, flexbox layout, html5 and modern css3 principes.
 
 This project is used as a little demonstration of my skills and for evolving my knowledge as a full stack web developer.
 
@@ -24,7 +11,7 @@ For any questions feel free to contact me at me@mwardew.com
 
 <br />
 
-### Demo:  https://*****.mwardew.com/
+### Demo:  https://budgetify.mwardew.com/
 
 <br />
 
