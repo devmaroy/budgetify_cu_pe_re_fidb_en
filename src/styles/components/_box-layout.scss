@@ -6,17 +6,36 @@
     height: 100vh;
     justify-content: center;
     width: 100vw;
+    padding: 0 $s-size;
 }
 
 .box-layout__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: fade-out( white, .15 );
+    box-shadow: $box-shadow;
     border-radius: 3px;
-    padding: $l-size $m-size;
     text-align: center;
-    width: 25rem;
+    width: 35rem;
+    height: 30rem;
 }
 
 .box-layout__title {
-    margin: 0 0 $m-size 0;
+    font-family: 'Staatliches', cursive;
+    font-size: 4rem;
+    font-size: $xl-size;
+    font-size: 6rem;
+    //color: #2f62af;
+    //color: #d34836;
+    color: $dark-pink;
+    text-shadow: 0.1rem 0.3rem 0.1rem #c7c7c7, 0.3rem 0.3rem 0.1rem #c7c7c7;
+    letter-spacing: 2px;
+    margin: 0 0 $l-size 0;
     line-height: 1;
+    text-transform: uppercase;
+}
+
+.box-layout__button {
+    margin: $l-size 0 0 0;
 }

@@ -20,8 +20,8 @@ For any questions feel free to contact me at me@mwardew.com
 Requirements
 ============
 
-* React >= *****
-* ReactDOM >= *****
+* React >= 16.1.0
+* ReactDOM >= 16.4.2
 
 ... see package.json
 

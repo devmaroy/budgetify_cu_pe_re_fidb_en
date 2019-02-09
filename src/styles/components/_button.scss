@@ -1,6 +1,9 @@
+// Button
+
 .button {
-    background: $blue;
+    background: $dark-pink;
     border: none;
+    outline: none;
     color: white;
     display: inline-block;
     font-size: $font-size-large;
@@ -8,12 +11,54 @@
     line-height: 1;
     padding: $s-size;
     text-decoration: none;
+
+    transition: $transition;
+
+    &:hover,
+    &:focus {
+        background: darken( $dark-pink, 5% );
+    }
 }
 
 .button--link {
     background: none;
+    padding: 0;
+    
+    &:hover,
+    &:focus {
+        background: none;
+        text-decoration: underline;
+    }
 }
 
 .button--secondary {
     background: #888;
+}
+
+
+// Button Social 
+
+.button--social {
+    padding: $s-size;
+    transition: $transition;
+
+    &::before {
+        position: relative;
+        top: 4px;
+        margin-right: $s-size;
+    }
+}
+
+.button--google {
+    background: $google-color;
+    color: $off-white;
+
+    &::before {
+        content: url( '/images/google-plus.svg' );
+    }
+
+    &:hover,
+    &:after {
+        background: darken( $google-color, 5% );
+    }
 }
