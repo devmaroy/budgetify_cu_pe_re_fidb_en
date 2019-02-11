@@ -1,6 +1,10 @@
 /*------------------------------------*\
-    # Page Header
+    # Page
 \*------------------------------------*/
+
+.page {
+    margin-bottom: $xl-size;
+}
 
 .page-header {
     margin-bottom: $l-size;
