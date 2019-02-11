@@ -12,11 +12,11 @@
 }
 
 .list-body {
-    margin-bottom: $m-size;
+    margin-bottom: $xl-size;
 
-    @media ( min-width: $desktop-breakpoint ) {
+    /*@media ( min-width: $desktop-breakpoint ) {
         margin-bottom: $l-size;
-    }
+    }*/
 }
 
 .list-item {
