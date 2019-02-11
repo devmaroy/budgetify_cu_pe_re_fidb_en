@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dokku": {
-      "predeploy": "yarn run build:prod"
+      "predeploy": "yarn run build:prod",
+      "postinstall": "npm rebuild node-sass"
     }
   }
 }

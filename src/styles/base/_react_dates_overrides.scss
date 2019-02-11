@@ -1,0 +1,29 @@
+.CalendarDay--selected-span,
+.CalendarDay--hovered-span,
+.CalendarDay--hovered.CalendarDay--hovered-span,
+.CalendarDay--after-hovered-start {
+    background: $blue;
+    border-color: $light-pink;
+    color: $off-white;
+}
+
+.DateInput__display-text--focused,
+.CalendarDay--selected-start,
+.CalendarDay--selected-end,
+.CalendarDay--selected-start:active,
+.CalendarDay--selected-span:active, 
+.CalendarDay--selected-span:hover,
+.CalendarDay--selected-span:focus,
+.CalendarDay--highlighted-calendar:active {
+    background: $dark-pink;
+    color: $off-white;
+    border-color: $light-pink;
+}
+
+.DayPickerKeyboardShortcuts__show--bottom-right {
+    border-right-color: $dark-pink;
+
+    &:hover {
+        border-right-color: $blue;
+    }
+}

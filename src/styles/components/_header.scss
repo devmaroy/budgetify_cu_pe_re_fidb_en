@@ -15,7 +15,8 @@
     text-decoration: none;
     font-family: 'Staatliches', cursive;
     letter-spacing: 2px;
-    text-shadow: $text-shadow;
+    //text-shadow: $text-shadow;
+    text-shadow: 1px 1px 1px #000;
 
     h1 {
         margin: 0;

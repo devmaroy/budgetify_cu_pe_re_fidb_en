@@ -19,7 +19,8 @@
     border: 1px solid lighten( #54414E, 10% );
     border-top: none;
     background: $blue;
-    color: #54414E;
+    //color: #54414E;
+    color: $off-white;
     display: flex;
     flex-direction: column;
     padding: $s-size;
@@ -42,7 +43,8 @@
 
 .list-item--message {
     align-items: center;
-    color: #54414E;
+    //color: #54414E;
+    color: $off-white;
     justify-content: center;
     padding: $m-size;
 
@@ -57,7 +59,8 @@
 }
 
 .list-item__sub-title {
-    color: #54414E;
+    //color: #54414E;
+    color: $off-white;
     font-size: $font-size-small;
     font-weight: 300;
 }
