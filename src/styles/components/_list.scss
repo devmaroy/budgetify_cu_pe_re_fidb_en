@@ -8,7 +8,8 @@
 }
 
 .list-body {
-    margin-bottom: $xl-size;
+    margin-bottom: $l-size;
+    margin-bottom: 500em;
 
     @media ( min-width: $desktop-breakpoint ) {
         margin-bottom: $xl-size;
