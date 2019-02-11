@@ -8,11 +8,10 @@
 }
 
 .list-body {
-    margin-bottom: $l-size;
-    margin-bottom: 500em;
+    margin-bottom: $m-size;
 
     @media ( min-width: $desktop-breakpoint ) {
-        margin-bottom: $xl-size;
+        margin-bottom: $l-size;
     }
 }
 
