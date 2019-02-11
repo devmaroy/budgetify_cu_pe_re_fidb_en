@@ -33,7 +33,7 @@
     transition: background .3s ease;
 
     &:hover {
-       background: darken( $blue, 3% );
+       background: $blue;
     }
 
     @media ( min-width: $desktop-breakpoint  ) {
