@@ -1,39 +1,40 @@
+/*------------------------------------*\
+    # Button
+\*------------------------------------*/
+
 // Button
 
 .button {
-    background: $dark-pink;
+    display: inline-block;
     border: none;
     outline: none;
-    color: white;
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $font-family-sans-serif;
     font-size: $font-size-large;
-    font-weight: 300;
-    line-height: 1.6;
+    font-weight: $font-weight-thin;
     padding: $s-size;
+    line-height: $line-height;
     text-decoration: none;
+    background: $purple;
+    color: $white;
 
     transition: $transition;
 
     &:hover,
     &:focus {
-        background: darken( $dark-pink, 5% );
+        background: darken( $purple, 5% );
     }
 }
 
 .button--link {
     background: none;
     padding: 0;
-    
+    color: $purple;
+
     &:hover,
     &:focus {
         background: none;
         text-decoration: underline;
     }
-}
-
-.button--secondary {
-    background: #888;
 }
 
 

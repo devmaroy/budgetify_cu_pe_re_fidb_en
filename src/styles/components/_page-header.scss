@@ -1,7 +1,11 @@
+/*------------------------------------*\
+    # Page Header
+\*------------------------------------*/
+
 .page-header {
-    background: fade-out( $dark-pink, .9 );
     margin-bottom: $l-size;
     padding: $l-size 0;
+    background: fade-out( $purple, .9 );
 }
 
 .page-header__actions {
@@ -9,12 +13,11 @@
 }
 
 .page-header__title {
-    font-weight: 300;
+    font-weight: $font-weight-thin;
     margin: 0;
 
     span {
-        font-weight: 700;
-        color: $dark-pink;
-        //text-shadow: 0 1px 1px #000;
+        font-weight: $font-weight-bold;
+        color: $purple;
     }
 }

@@ -1,9 +1,13 @@
+/*------------------------------------*\
+    # Form
+\*------------------------------------*/
+
 .form {
     display: flex;
     flex-direction: column;
 
     >* {
-        font-family: 'Open Sans', sans-serif;
+        font-family: $font-family-sans-serif;
         margin-bottom: $m-size;
     }
 }

@@ -1,3 +1,7 @@
+/*------------------------------------*\
+    # Base
+\*------------------------------------*/
+
 * {
     box-sizing: border-box;  
 }
@@ -7,11 +11,12 @@ html {
 }
 
 body {
+    font-family: $font-family-sans-serif;
+    font-size: $m-size;
+    line-height: $line-height;
     background: $off-white;
     color: $dark-grey;
-    font-family: 'Open Sans', sans-serif;
-    font-size: $m-size;
-    line-height: 1.6;
+
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }

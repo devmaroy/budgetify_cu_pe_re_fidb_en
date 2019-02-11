@@ -1,6 +1,16 @@
+/*------------------------------------*\
+    # Styles  - Budgetify
+    # Author  - MWardew
+    # Website - https://budgetify.mwardew.com/ 
+    # License - None. Feel free to do whatever you want.
+\*------------------------------------*/
+
+// Base
 @import './base/settings';
 @import './base/base';
 @import './base/react_dates_overrides';
+
+// Components
 @import './components/box-layout';
 @import './components/button';
 @import './components/header';

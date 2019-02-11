@@ -1,9 +1,13 @@
+/*------------------------------------*\
+    # React Dates Overrides
+\*------------------------------------*/
+
 .CalendarDay--selected-span,
 .CalendarDay--hovered-span,
 .CalendarDay--hovered.CalendarDay--hovered-span,
 .CalendarDay--after-hovered-start {
-    background: $blue;
-    border-color: $light-pink;
+    background: $off-purple;
+    border-color: $light-purple;
     color: $off-white;
 }
 
@@ -16,19 +20,19 @@
 .CalendarDay--selected-span:hover,
 .CalendarDay--selected-span:focus,
 .CalendarDay--highlighted-calendar:active {
-    background: $dark-pink;
+    background: $purple;
     color: $off-white;
-    border-color: $light-pink;
+    border-color: $light-purple;
 }
 
 .DayPickerKeyboardShortcuts__show--bottom-right {
-    border-right-color: $dark-pink;
+    border-right-color: $purple;
 
     &:hover {
-        border-right-color: $blue;
+        border-right-color: $off-purple;
     }
 }
 
 .DateInput__input {
-    font-family: 'Open Sans', sans-serif;
+    font-family: $font-family-sans-serif;
 }

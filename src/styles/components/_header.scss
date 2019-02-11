@@ -1,22 +1,25 @@
+/*------------------------------------*\
+    # Header
+\*------------------------------------*/
+
 .header {
-    background: $dark-pink;
-    border-bottom: 5px solid darken( $dark-pink, 10% );
+    background: $purple;
+    border-bottom: 5px solid darken( $purple, 10% );
 }
 
 .header__content {
-    align-items: center;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: $m-size 0;
 }
 
 .header__title {
-    color: white;
-    text-decoration: none;
-    font-family: 'Staatliches', cursive;
+    font-family: $font-family-cursive;
     letter-spacing: 2px;
-    //text-shadow: $text-shadow;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: $text-shadow;
+    text-decoration: none;
+    color: $white;
 
     h1 {
         margin: 0;
@@ -25,4 +28,5 @@
 
 .header__button {
     line-height: 2;
+    color: $white;
 }
