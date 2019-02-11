@@ -19,7 +19,7 @@
     align-items: center;
     height: 30rem;
     width: 35rem;
-    border-radius: 3px;
+    border-radius: .3rem;
     background: fade-out( white, .15 );
     box-shadow: $box-shadow;
     text-align: center;
@@ -29,10 +29,10 @@
     font-family: $font-family-cursive;
     font-size: 6rem;
     margin: 0 0 $l-size 0;
-    letter-spacing: 2px;
+    letter-spacing: .2rem;
     line-height: 1;
     color: $purple;
-    text-shadow: 1px 1px 1px $black;
+    text-shadow: $text-shadow;
     text-transform: uppercase;
 }
 

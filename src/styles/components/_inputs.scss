@@ -9,8 +9,8 @@
     font-size: $font-size-large;
     font-weight: $font-weight-thin;
     padding: $s-size;
-    height: 50px;
-    border: 1px solid #cacccd;
+    height: 5rem;
+    border: .1rem solid #cacccd;
     background: $white;
     color: $grey;
 
@@ -21,7 +21,7 @@
     background-position: right 50%;
     background-repeat: no-repeat;
     background-image: $input-caret;
-    padding-right: 1.2em;
+    padding-right: 1.2rem;
 }
 
 .textarea {

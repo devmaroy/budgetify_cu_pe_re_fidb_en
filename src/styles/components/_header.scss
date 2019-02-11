@@ -4,7 +4,7 @@
 
 .header {
     background: $purple;
-    border-bottom: 5px solid darken( $purple, 10% );
+    border-bottom: .5rem solid darken( $purple, 10% );
 }
 
 .header__content {
@@ -16,7 +16,7 @@
 
 .header__title {
     font-family: $font-family-cursive;
-    letter-spacing: 2px;
+    letter-spacing: .2rem;
     text-shadow: $text-shadow;
     text-decoration: none;
     color: $white;
