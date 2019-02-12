@@ -2,6 +2,11 @@
     # React Dates Overrides
 \*------------------------------------*/
 
+.DateInput__display-text--has-input {
+    color: $purple;
+}
+
+.CalendarDay--hovered,
 .CalendarDay--selected-span,
 .CalendarDay--hovered-span,
 .CalendarDay--hovered.CalendarDay--hovered-span,
@@ -11,7 +16,6 @@
     color: $off-white;
 }
 
-.DateInput__display-text--focused,
 .CalendarDay--selected,
 .CalendarDay--selected-start,
 .CalendarDay--selected-end,
@@ -19,7 +23,8 @@
 .CalendarDay--selected-span:active, 
 .CalendarDay--selected-span:hover,
 .CalendarDay--selected-span:focus,
-.CalendarDay--highlighted-calendar:active {
+.CalendarDay--highlighted-calendar:active,
+.DateInput__display-text--focused {
     background: $purple;
     color: $off-white;
     border-color: $light-purple;
@@ -35,4 +40,8 @@
 
 .DateInput__input {
     font-family: $font-family-sans-serif;
+}
+
+.SingleDatePickerInput {
+    border-color: $off-purple;
 }
