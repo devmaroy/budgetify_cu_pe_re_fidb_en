@@ -11,7 +11,7 @@ For any questions feel free to contact me at me@mwardew.com
 
 <br />
 
-### Demo:  https://budgetify.mwardew.com/
+### Demo:  https://budgetify.mwardew.dev/
 
 <br />
 
