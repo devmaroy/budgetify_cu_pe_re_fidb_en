@@ -1,18 +1,11 @@
 {
   "name": "budgetify",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Marek Matejovic",
-  "license": "MIT",
-  "scripts": {
-    "build:dev": "webpack",
-    "build:prod": "webpack -p --env production",
-    "dev-server": "webpack-dev-server",
-    "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
-    "start": "node server/server.js",
-    "predeploy": "yarn run build:prod",
-    "heroku-postbuild": "yarn run build:prod"
-  },
+  "private": true,
+  "license": "UNLICENSED",
+  "keywords": [],
+  "description": "Budgetify",
+  "version": "0.1.0",
+  "author": "Marek Matejovic <hello@devmaroy.com>",
   "dependencies": {
     "autoprefixer": "9.4.5",
     "babel-cli": "6.24.1",
@@ -55,8 +48,7 @@
     "style-loader": "0.18.2",
     "uuid": "3.1.0",
     "validator": "8.0.0",
-    "webpack": "3.1.0",
-    "webpack-dev-server": "2.5.1"
+    "webpack": "3.1.0"
   },
   "devDependencies": {
     "cross-env": "5.0.5",
@@ -66,5 +58,22 @@
     "jest": "20.0.4",
     "react-test-renderer": "16.1.0",
     "webpack-dev-server": "2.5.1"
+  },
+  "scripts": {
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "dev-server": "webpack-dev-server",
+    "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
+    "start": "node server/server.js",
+    "predeploy": "yarn run build:prod",
+    "heroku-postbuild": "yarn run build:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devmaroy/budgetify_cu_pe_re_fidb_en"
+  },
+  "bugs": {
+    "url": "https://github.com/devmaroy/budgetify_cu_pe_re_fidb_en/issues",
+    "email": "bugs@devmaroy.com"
   }
 }
