@@ -1,6 +1,6 @@
 <img src="public/images/logo/logo.png" width="100">
 
-# **Vietcong Fan Page**
+# **Budgetify**
 
 This project is based on **React**, **Flexbox** layout, **HTML5** and modern **CSS3** principles. You can modify and use this project or certain components if you wish.
 
